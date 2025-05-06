@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.liukrast.packagerspsic.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "packagerspsic.refmap.json",
+  "mixins": [
+    "PackagerBlockEntityMixin",
+    "PackagerBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
