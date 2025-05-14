@@ -1,10 +1,8 @@
 package net.liukrast.packagerspsic;
 
-import net.neoforged.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod;
 
-@Mod(PackagersPSIC.MOD_ID)
+@Mod("packagerspsic")
 public class PackagersPSIC {
-    public static final String MOD_ID = "packagerspsic";
-
     public PackagersPSIC() {}
 }

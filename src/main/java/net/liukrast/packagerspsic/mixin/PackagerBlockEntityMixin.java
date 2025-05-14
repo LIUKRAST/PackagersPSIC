@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-@Mixin(PackagerBlockEntity.class)
+@Mixin(value = PackagerBlockEntity.class, remap = false)
 public class PackagerBlockEntityMixin {
 
     @Inject(method = "supportsBlockEntity", at = @At("RETURN"), cancellable = true)

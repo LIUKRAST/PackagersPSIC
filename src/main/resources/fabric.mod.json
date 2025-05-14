@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_id",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "${mod_authors}"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/LIUKRAST/PackagersPSIC/"
+  },
+  "license": "${mod_license}",
+  "icon": "${mod_id}.png",
+  "environment": "*",
+  "mixins": [
+    "${mod_id}.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "create": ">=6.0.4 <6.1.0",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
